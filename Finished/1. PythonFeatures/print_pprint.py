@@ -12,6 +12,7 @@ print(*values)
 
 # use the 'sep' argument to control the separator between values:
 print(*values, sep=' -- ')
+print(1, 2, 3, 4, sep=' -- ')
 
 # use the 'end' argument to control the line ending characters
 # let's auto-print the current line number along with each item

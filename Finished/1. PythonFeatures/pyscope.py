@@ -24,6 +24,8 @@ test()
 def multiplier_maker(factor):
     def multiply(num):
         return num * factor
+    def divide(num): # Never accessed
+        return num / factor
     return multiply
 
 doubler = multiplier_maker(2)
